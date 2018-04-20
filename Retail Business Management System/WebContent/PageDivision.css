@@ -1,0 +1,110 @@
+@CHARSET "ISO-8859-1";
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url('1.png');
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+.boxedpage{
+	width: 90%;
+	height: 100%;
+	margin-left: 9%;
+	background-image: url('/WebContent/3.png');
+}
+
+.info{
+  width: 100%;
+  height: 5%;
+  border-collapse:separate;
+}
+
+.logo {
+  width: 100%;
+  height: 200px;
+  border-collapse: collapse;
+}
+
+.left 
+{
+    width: 20%;
+    height: 75%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.middle {
+    width: 60%;
+    height: 75%;
+    float: left;
+    border-collapse: collapse;
+	
+}
+
+.right {
+  width: 20%;
+  height: 75%;
+  position: relative;
+  float: right;
+  border-collapse: collapse;
+}
+
+.glass{
+	/* background styles */
+	position: relative;
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: green; 
+	background-image: linear-gradient(green,lightgreen);
+
+	/* text styles */
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.glass2{
+	/* background styles */
+	position: relative;
+	display: inline-block;
+	padding: 15px 25px;
+	background-color: #268f9b; 
+	background-image: linear-gradient(green,lightgreen);
+
+	/* text styles */
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #268f9b;
+    color: white;
+}
